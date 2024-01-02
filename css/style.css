@@ -1,0 +1,109 @@
+#body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: boonbaan;
+  }
+  
+  /** HEADER **/
+  #header-navbar {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    font-family: boonbaan;
+  }
+#logo-img {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;    
+}
+
+#navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /** ຊື່ຮ້ານອາຫານ **/
+    font-family: boonbaan;
+    color: #557c3e;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span {
+    vertical-align: middle;
+}
+#nav-list {
+    margin-top: 10px;
+    
+}
+.nav-item {
+    font-size: 22px;
+}
+#nav-list a {
+    color:#951c49;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+  }
+  /* #nav-list a span {
+    font-size: 1.8em;
+  } */
+  
+ 
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */  
+
+  /* footter */ 
+  .panel-footer {
+      margin-top: 30px;
+      padding-top: 35px;
+      padding-bottom: 25px;
+      background-color: #222;
+      border-top: 0;
+      color: white;
+      font-family: boonbaan;
+
+  }
+  .panel-footer div.row {
+      margin-bottom: 35px;
+  }
+#hours, #address {
+    line-height: 2;
+}
+#hours > span, #address > span {
+    font-size: 3em;
+}
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials {
+    font-style:  italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
