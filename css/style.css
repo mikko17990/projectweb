@@ -2,7 +2,7 @@
     font-size: 16px;
     color: #fff;
     background-color: #61122f;
-    font-family: boonbaan;
+    /* font-family: boonbaan; */
   }
   
   /** HEADER **/
@@ -10,7 +10,7 @@
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
-    font-family: boonbaan;
+    /* font-family: boonbaan; */
   }
 #logo-img {
     background: url('../images/restaurant-logo_large.png') no-repeat;
